@@ -1,47 +1,23 @@
-body {
-  background-color:rgb(245, 252, 252);
-}
-
-}
-
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-
-}
-nav a{
-    text-align: center;
-    color: azure;
-    text-decoration: none;
-  }
-
-nav a:hover{
-    background-color: #00B4D8;
-    color: black;
-  }
-  
-
-  }
-  
-.button-box {
-    text-align: center;
-  }
-
-
   
 #background {
-    height: 725px;
-    background-color: #D4AC0D
-}
-                
+  height: 725px;
+  background-color: #D4AC0D
 
-.home-title {
-  color: #000000; 
 }
 
-h4 {
-  color: #2e363d; 
+.button-box {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+body {
+  background-color:rgb(245, 252, 252);
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+
 }
 
 .book {
@@ -50,36 +26,127 @@ h4 {
    
 }
 
-.join {
-  color: rgb(255, 255, 255);
+.book, .join {
+  background-color: #00B4D8;
+  color: black; 
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
   text-decoration: none;
-   
 }
 
 .book:hover, .join:hover {
   background-color: #00B4D8;
-    color: black; 
+  color: black; 
+
 }
 
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+
+h2 {
+  margin: 0;
+}
+
+header {
+  background-color:#396E94;
+}
+
+h4 {
+  color: #2e363d; 
+}
+
+.home-title {
+  color: #000000;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+
+
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+
+
+.join {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+     
+}
+
+
+#logo_link {
+  padding-top: 5px;
+  
+  
+}
+  
 .msg {
   background-color: #396E94;
-  
- 
+  line-height: 1.5em;
+  padding: 35px;
+   
 }
-
+  
 .msg h2 {
   background-color: #396E94;
   color: white;
 }
-
+  
 .msg p {
   color: white;
-
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: .8em;
+  padding-bottom: 15px;
+  
 }
+
+main section {
+  text-align: center;
+  }
+
+main section img {
+  box-sizing: border-box;
+}
+
+
+nav a {
+  text-align: center;
+  color: azure;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover{
+  background-color: #00B4D8;
+  color: black;
+}
+
+
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+
 
 footer {
   background-color:#396E94;
   color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
    
 }
 
@@ -100,8 +167,12 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 } 
-                  
+
+footer .social img {
+  padding-top: 15px;
+}
 
 .icon {
-  width: 12px;
+  width: 80px;
+  padding-top: 10px;
 }
