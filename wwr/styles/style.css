@@ -2,13 +2,8 @@ body {
   background-color:rgb(245, 252, 252);
 }
 
-header {
-  background-color:#396E94;
 }
 
-header {
-  background-color:#396E94;
-}
 
 #content {
     max-width: 1600px;
@@ -27,18 +22,12 @@ nav a:hover{
   }
   
 
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
   }
   
 .button-box {
     text-align: center;
-    text-decoration: none;
   }
 
-main section {
-    text-align: center;
-  }
 
   
 #background {
