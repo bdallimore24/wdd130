@@ -115,7 +115,7 @@ footer .social img {
 }
 
 h2 {
-  margin: 0;
+  margin-top: 10%;
 }
 
 header {
@@ -261,6 +261,7 @@ nav a:hover{
 .rivers-card {
   grid-column: 2/4;
   grid-row: 2/3;
+  height: auto;
 }
 
 
