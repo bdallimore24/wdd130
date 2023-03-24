@@ -1,5 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .card1 {
+      box-shadow: 5px 10px 20px #2c8992;
+      max-width: 300px;
+      margin: auto;
+      margin-top: 5%;
+      text-align: center;
+      font-family: arial;
+      
+    }
+    
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+    
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #2978A0;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      height: 50px;
+    }
+    
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: #2978A0;
+    }
+    
+    button:hover, a:hover {
+      opacity: 0.7;
+    }
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,51 +64,35 @@
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-im" src="images/contact1.png" alt="contact">
+            <img id="hero-im" src="#" alt="contact">
         </div>
         <section id="hero-ms">
-            <h1 class="home-title">I would to talk with you</h1>
+            <h1 class="home-title"></h1>
         
         </section>
     </div>
     <main>
     
-        <div id="feedback"></div>
                 
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                    <li class="button">
-                    <button type="submit">Send your message</button>
-                </li>
-            </ul>
-            </form>
-            
+        <div class="card1">
+            <img src="images/profile.jpg" alt="Brandon" style="width:100%">
+            <h1>Brandon Dallimore</h1>
+            <p class="title">Voice Actor, Film Making, and Programmer</p>
+            <p>BYU-Idaho</p>
+            <div style="margin: 24px 0;">
+                <a href="https://www.facebook.com/bdallimore15/"><i class="fa fa-facebook-square"></i></a> 
+              <a href="https://www.instagram.com/brandondallimore/"><i class="fa fa-instagram"></i></a>  
+              <a href="https://www.linkedin.com/in/brandondallimore/"><i class="fa fa-linkedin-square"></i></a>  
         
+            </div>
+            <p><button>Contact</button></p>
         </div>
     </main>
     <footer>
         <p>&copy; 2023 | Brandon Dallimore</p>
         <p><a href="site-plan.html">Site Plan</a></p>
         <p><a href="contact.html">Contact Me</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
+        
         </div>
     </footer>
 </div>
