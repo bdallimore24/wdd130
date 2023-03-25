@@ -6,33 +6,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon Dallimore | Portfolio | My Work</title>
     <link rel="stylesheet" href="styles/style.css">
-    
+<style>
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+.intro {
+    width: 1094px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #2978A0;
+    border-radius: 10px;
+}
+
+.intro-text {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    margin-top: 30px;
+}
+
+.intro-text h1 {
+    color: var(--headline-color-on-color);
+    font-size: var(--header-font-size-xsmall);
+}
+
+.intro-text p {
+    color: var(--headline-color-on-color);
+    font-size: var(--paragraph-font-size-small);
+    padding: 40px;
+}
+
+.intro-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.skills-title h1 {
+    width: 1094px;
+    margin: 10px auto;
+    font-size: var(--header-font-size-xsmall);
+    margin-top: 40px;
+}
+
+.skills-group {
+    width: 1094px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #2978A0;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.skills-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.skills-text {
+    grid-column: 3/4;
+
+    color: var(--headline-color-on-color);
+    font-size: var(--paragraph-font-size-small);
+    padding: 10px;
+
+}
+
+
+</style>
 </head>
 <body>
-<div id="content">
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/Brandon-Dallimore-logos_white.png" alt="Brandon's Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="my_work.html">My Work</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="contact.html">Contact Me</a>
-        </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="Brandon" src="images/mywork2.png" alt="Brandon Dallimore">
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/Brandon-Dallimore-logos_white.png" alt="Brandon's Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="my_work.html">My Work</a>
+                <a href="site-plan.html">Site Plan</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+          </header>
+
+        <div class="intro">
+            <div class="intro-text">
+                <h1> some of my skills</h1>
+                <p> some of my skills</p>
+            </div>
+            <div class="intro-img">
+                <img src="images/skills1.jpg" 
+                width="550" alt="skills">
+            </div>
+        </div>
+        <div class="skills-title">
+            <h1>Programming and Information Technology</h1>
         </div>
 
-            </div>
-        </section>
-    </div>
-    
-<main>
+        <div class="skills-group">
 
-</main>
+            <div class="skills-img">
+                <img src="images/SalmonRiver1.jpg" width="312" alt="Salmon River Picture 1">
+            </div>
+
+            <div class="skills-text">
+                <p>some of my skills</p>
+            </div>
+        </div>
+
+
+        <div class="skills-title">
+            <h1>Film Production</h1>
+        </div>
+
+        <div class="skills-group">
+
+            <div class="skills-img">
+                <img src="images/Desolation1.jpg" width="312" alt="Desolation picture 1">
+            </div>
+
+            <div class="skills-text">
+                <p>some of my skills
+
+                </p>
+            </div>
+        </div>
+
+        <div class="skills-title">
+            <h1>Voice Acting</h1>
+        </div>
+
+        <div class="skills-group">
+
+            <div class="skills-img">
+                <img src="images/Canyon1.jpg" width="312" alt="Canyon picture 1">
+            </div>
+
+            <div class="skills-text">
+                <p> some of my skills
+
+                </p>
+            </div>
+        </div>
+
 <footer>
     <p>&copy; 2023 | Brandon Dallimore</p>
     <p><a href="site-plan.html">Site Plan</a></p>
