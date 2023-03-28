@@ -293,10 +293,16 @@ nav a:hover{
   }
 
   .aboutme, .msg {
-      width: 80%;
+      width: 89%;
       display: block;
       margin: 0 auto;
   }
+
+  .background, .msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
   footer {
       margin-top: 25px;
   }
