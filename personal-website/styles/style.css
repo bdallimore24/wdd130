@@ -106,7 +106,8 @@ h2 {
 }
 
 h4 {
-  color: #2e363d; 
+  color: #2e363d;
+  font-size: 2em;
 }
 
 header {
@@ -120,8 +121,9 @@ header {
 .home-title {
   color: #000000;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 2em;
-  margin-top: 10px;
+  font-size: 3em;
+  margin-top: 100px;
+  
 }
 
 
@@ -248,6 +250,7 @@ nav a:hover{
 #welcome-msg h1, #welcome-msg h4 {
   text-align: center;
   color: white;
+  -webkit-text-stroke: .5px #2c8992;
 }
 
 /* FAQ */
@@ -280,12 +283,12 @@ nav a:hover{
   #welcome-msg {
       margin-top: 0;
   }
-  #welcome-msg h4 {
-      display: none;
+  #welcome-msg h4, #welcome-msg h1{
+      color: #000000;
   }
   .home-title {
       font-size: 25px;
-      color: #6f7364;
+      color: #0b0e05;
   }
   .program-card, .film-card, .voice-card { 
       margin: 50px auto;
@@ -306,5 +309,5 @@ nav a:hover{
   footer {
       margin-top: 25px;
   }
+ 
 }
-          
