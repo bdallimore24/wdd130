@@ -25,11 +25,6 @@ body {
 }
 
 
-#Brandon {
-  width:90%;
-  height: 100%;
-  
-}
 
 #content {
   max-width: 1600px;
@@ -249,16 +244,15 @@ nav a:hover{
 #welcome-msg h1 {
   text-align: center;
   color: white;
-  -webkit-text-stroke: 1px #2c8992;
-  margin-top: 20px;
+ 
+  margin-top: 0px;
   
 }
 
 #welcome-msg h4 {
   text-align: center;
   color: white;
-  -webkit-text-stroke: .5px #2c8992;
-  margin-top: -20px;
+  margin-top: -50px;
   
 }
 
